@@ -85,7 +85,6 @@ int[,] pic = new int[,]
 
 
 void PrintImage(int[,] image)
-
 {
     for (int i = 0; i < image.GetLength(0); i++)
     {
@@ -96,7 +95,6 @@ void PrintImage(int[,] image)
         }
         Console.WriteLine();
     }
-    
 }
 
 
